@@ -1,0 +1,74 @@
+/**
+ *custom.css
+ *
+ * /// - Mobile-First Approach -///
+ *Index
+ *
+ * - Variables ()
+ * - General layout settings ()
+ * //
+ * - Desktop-Version ()
+ *
+ **/
+
+ /***
+ * 
+ * Variables
+ *
+***/
+
+:root {
+    /* Typhography */
+
+    /** Fonts */
+    --ff-general: 'Poppins', sans-serif;
+
+    /*** Fonts-Maintitle*/
+    --fs-maintitle-mobile: 1.75rem;
+    --fs-maintitle-desktop: 3.125rem;
+    --fw-maintitle: bold;
+   
+    /*** Fonts Body*/
+    --fs-body: 1rem;
+    --lh-body: 1.625rem;
+
+    /* Colors */
+    --clr-green: #38cc8b;
+    --clr-red: #ff7979;
+    --clr-violet: #5e54a4;
+    --clr-light: #fff;
+    --clr-dark: #3d3b48; 
+}
+
+/***
+ * 
+ * General layout settings
+ *
+***/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../images/bg-intro-mobile.png);
+    background-color: var(--clr-red);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1,
+p {
+    overflow-wrap: break-word;
+}
+
+/***** Desktop-Version *****/
+
+@media (min-width: 1440px) {
+    body {
+        background: url(../images/bg-intro-desktop.png);
+        background-color: var(--clr-red);
+    }
+}

@@ -1,0 +1,209 @@
+/**
+ *components.css
+ *
+ * /// - Mobile-First Approach -///
+ *Index
+ *
+ * - Variables ()
+ * - Main ()
+ * - Product ()
+ * - Sign-Up ()
+ * //
+ * - Desktop-Version ()
+ *
+ **/
+
+/***
+ * 
+ * Variables
+ *
+***/
+
+:root {
+    /* Typhography */
+
+    /** Fonts */
+    --ff-general: 'Poppins', sans-serif;
+
+    /*** Fonts-Maintitle*/
+    --fs-maintitle-mobile: 1.75rem;
+    --fs-maintitle-desktop: 3.125rem;
+    --fw-maintitle: bold;
+   
+    /*** Fonts Body*/
+    --fs-body: 1rem;
+    --lh-body: 1.625rem;
+
+    /* Colors */
+    --clr-green: #38cc8b;
+    --clr-red: #ff7979;
+    --clr-violet: #5e54a4;
+    --clr-light: #fff;
+    --clr-dark: #3d3b48; 
+}
+
+/***
+ * 
+ * Product
+ *
+***/
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.375rem;
+    color: var(--clr-light);
+}
+
+.product-title,
+.product-txt {
+    text-align: center;
+    font-family: var(--ff-general);
+}
+
+.product-title {
+    font-size: var(--fs-maintitle-mobile);
+    font-weight: var(--fw-maintitle);
+    margin-bottom: 1.5rem;
+}
+
+.product-txt {
+    font-size: var(--fs-body);
+    padding: 0 1.5rem;
+    margin-bottom: 4rem;
+}
+
+/***
+ * 
+ * Sign-up
+ *
+***/
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.signup-proposal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--clr-violet);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0.5rem rgba(151, 151, 151, 0.3);
+}
+
+.signup-proposal-txt {
+    color: var(--clr-light);
+    text-align: center;
+    max-width: 50%;
+}
+
+.signup-highlight {
+    font-weight: bold;
+}
+
+#fname,
+#lname,
+#eaddress,
+#password {
+    display: none;
+    color: red;
+}
+
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-light);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem rgba(151, 151, 151, 0.3);
+}
+
+.form-item {
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+.form-input {
+    width: 18.75rem;
+    height: 3.75rem;
+    border: 0.03125rem solid #DEDEDE;
+    border-radius: 10px;
+    font-family: var(--ff-general);
+    color: #3D3B48;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.legal-txt {
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 245px;
+}
+
+.legal-highlight {
+    color: var(--clr-red);
+    font-weight: bold;
+}
+
+/***** Desktop-Version *****/
+
+@media (min-width: 1440px) {
+
+    /*-- Main --*/
+
+    #main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*-- Product --*/
+
+    .product-container {
+        max-width: 600px;
+        justify-content: flex-start;
+        margin-right: 0.5rem;
+    }
+
+    .product-title {
+        text-align: left;
+        font-size: var(--fs-maintitle-desktop);
+    }
+
+    .product-txt {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    /*-- Sign-up --*/
+
+    .signup-container {
+        margin-top: 8rem;
+    }
+
+    .signup-proposal-txt {
+        max-width: none;
+    }
+
+    .form-input {
+        width: 35rem;
+    }
+
+    .legal-txt {
+        max-width: none;
+    }
+}

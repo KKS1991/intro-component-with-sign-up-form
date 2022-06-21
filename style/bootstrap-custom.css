@@ -1,0 +1,75 @@
+/**
+ *bootstrap.css
+ *
+ * /// - Mobile-First Approach -///
+ *Index
+ *
+ * - Variables ()
+ * - Button ()
+ *
+ **/
+
+ /***
+ * 
+ * Variables
+ *
+***/
+
+:root {
+    /* Typhography */
+
+    /** Fonts */
+    --ff-general: 'Poppins', sans-serif;
+
+    /*** Fonts-Maintitle*/
+    --fs-maintitle-mobile: 1.75rem;
+    --fs-maintitle-desktop: 3.125rem;
+    --fw-maintitle: bold;
+   
+    /*** Fonts Body*/
+    --fs-body: 1rem;
+    --lh-body: 1.625rem;
+
+    /* Colors */
+    --clr-green: #38cc8b;
+    --clr-red: #ff7979;
+    --clr-violet: #5e54a4;
+    --clr-light: #fff;
+    --clr-dark: #3d3b48; 
+}
+
+ /***
+ * 
+ * Buttons
+ *
+***/
+
+.btn-claim {
+    background-color: var(--clr-green);
+    color: var(--clr-light);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 18.75rem;
+    height: 3.75rem;
+    box-shadow: 0 0.5rem rgba(56, 204, 139, 0.9);
+    margin-bottom: 1rem;
+}
+
+.btn-claim:hover {
+    background-color: var(--clr-green);
+    color: var(--clr-light);
+    border: none;
+    opacity: 0.8;
+}
+
+/***** Desktop-Version *****/
+
+@media (min-width: 1440px) {
+
+    /*-- Sign-up --*/
+
+    .btn-claim {
+        width: 35rem;
+    }
+}
