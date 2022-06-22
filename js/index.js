@@ -1,9 +1,9 @@
-const form = document.querySelector("form");
-const fname = document.querySelector("fname");
-const lname = document.querySelector("lname");
-const eaddress = document.querySelector("eaddress");
-const password = document.querySelector("password");
-const btnclaim = document.querySelector("btn-claim");
+const form = document.querySelector(".form");
+const fname = document.querySelector(".fname");
+const lname = document.querySelector(".lname");
+const eaddress = document.querySelector(".eaddress");
+const password = document.querySelector(".password");
+const btnclaim = document.querySelector(".btn-claim");
 
 const errFname = document.getElementById("fname");
 const errLname = document.getElementById("lname");
@@ -14,6 +14,7 @@ function valFname() {
     if (fname.value === "") {
         errFname.style.display = "block";
         fname.style.backgroundImage = 'url("images/icon-error.svg")';
+        fname.style.backgroundRepeat = "no-repeat";
     }
 }
 

@@ -137,6 +137,9 @@
 }
 
 .form-input {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: top 50% left 95%;;
     width: 18.75rem;
     height: 3.75rem;
     border: 0.03125rem solid #DEDEDE;
