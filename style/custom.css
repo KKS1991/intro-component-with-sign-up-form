@@ -64,6 +64,10 @@ p {
     overflow-wrap: break-word;
 }
 
+.signup-title {
+    display: none;
+}
+
 /***** Desktop-Version *****/
 
 @media (min-width: 1440px) {
