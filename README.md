@@ -51,7 +51,6 @@ Good things during the project
 
 - I've also build in this project a good HTML markup within a few hours
 - In my opinion i wrote structured CSS-files with a bunch of useful variables
-- The first time ever i've used more than one CSS-file and added indexes to them for a better structur
 - I was persistent and worked on the project even there were heavy parts/days
 - For the layout i needed to focus on flexbox and flexbox properties and so I learned more about it
 - It was my first challenge where I was forced to work with JS and I learned a lot about the basics. I was able to practice theoretical approaches like objects and instances.
