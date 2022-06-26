@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/intro-signup-form-with-html-css-js-and-bootstrap-FAEucD0FDG)
-- Live Site URL: [Add live site URL here](https://kks1991.github.io/intro-component-with-sign-up-form/)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/intro-signup-form-with-html-css-js-and-bootstrap-FAEucD0FDG)
+- Live Site URL: [Click here](https://kks1991.github.io/intro-component-with-sign-up-form/)
 
 ## My process
 
